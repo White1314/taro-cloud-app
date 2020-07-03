@@ -1,0 +1,25 @@
+.content {
+	display: flex;
+}
+
+@media screen and (max-width: 996px) {
+	.content-left {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 996px) {
+	.content-left {
+		width: 250PX;
+		padding-top: 10PX;
+		padding-left: 10PX;
+	}
+}
+.content-right {
+	flex: 1;
+}
+
+.md {
+	margin: 0 20PX;
+	margin-bottom: 20PX;
+}
