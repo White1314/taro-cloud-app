@@ -45,7 +45,6 @@
     "github-markdown-css": "^4.0.0",
     "global": "^4.4.0",
     "js-base64": "^2.6.2",
-    "lodash": "^4.17.15",
     "markdown-it": "^11.0.0",
     "mirror-config-china": "^2.5.1",
     "nerv-devtools": "^1.5.5",
