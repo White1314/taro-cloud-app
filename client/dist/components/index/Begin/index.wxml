@@ -1,0 +1,7 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="begin">
+        <view class="title">前端基础</view>
+        <view class="tip">涵盖了多个系列的前端文章</view>
+        <view class="start" bindtap="anonymousFunc0">现在开始</view>
+    </view>
+</block>

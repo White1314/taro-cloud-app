@@ -1,0 +1,40 @@
+.tabs {
+    margin-top: 10PX;
+    background-color: rgb(246, 248, 250);
+}
+
+.at-tabs__header {
+	width: 100%;
+}
+
+.at-tabs__item {
+    font-size: 14PX;
+    font-weight: 500;
+    color: #666;
+    height: 30PX;
+    padding: 5PX 20PX;
+    text-align: center;
+}
+
+.at-tabs__item-underline {
+	width: 50%;
+	left: 25%;
+	background-color: #6739b6;
+}
+
+.at-tabs__item--active {
+    color: #6739b6 !important;
+}
+
+.tab-content {
+	margin: 20PX;
+}
+
+.at-loading__ring {
+    width: 14PX;
+    height: 14PX;
+}
+
+.at-activity-indicator__content {
+    display: none;
+}

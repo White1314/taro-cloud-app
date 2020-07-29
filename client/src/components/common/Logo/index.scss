@@ -1,0 +1,34 @@
+.logo {
+	height: 30PX;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+	width: 30PX;
+	height: 30PX;
+	border-radius: 50%;
+}
+
+.logo-text {
+	font-size: 14PX;
+	font-weight: 800;
+	padding-left: 10PX;
+}
+
+.text-warp {
+	display: flex;
+}
+
+@media screen and (max-width: 370px) {
+	.text-warp {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 370px) and (max-width: 410px) {
+	.text-warp {
+		flex-direction: column;
+	}
+}
+

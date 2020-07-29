@@ -1,0 +1,17 @@
+<block wx:if="{{$taroCompReady}}">
+    <block wx:if="{{value}}">
+        <view class="bubble">
+            <view class="bubble-triangle">
+                <view class="triangle"></view>
+            </view>
+            <view class="bubble-content">
+                <view class="bubble-head">{{items.length ? '搜索结果' : '无搜索结果'}}</view>
+                <view wx:key="id" class="{{index === 0 ? 'bubble-item bg-active' : 'bubble-item'}}" bindtap="anonymousFunc0" wx:for="{{loopArray7}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">
+                    <view class="bubble-item-left">{{item.$original.type}}</view>
+                    <view class="bubble-item-right">{{item.$original.name}}</view>
+                </view>
+                <view class="bubble-bottom"></view>
+            </view>
+        </view>
+    </block>
+</block>

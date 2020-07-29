@@ -1,0 +1,10 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="menu-list">
+        <block wx:if="{{index}}" wx:for="{{loopArray9}}" wx:for-item="key" wx:for-index="index" wx:key="$original">
+            <view>
+                <view class="menu-title">{{key.$original}}</view>
+                <view wx:key="id" class="{{name === item.$original.name ? 'menu-item active' : 'menu-item'}}" bindtap="anonymousFunc0" wx:for="{{key.$anonymousCallee__1}}" wx:for-item="item" wx:for-index="__index0" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">{{item.$original.name}}</view>
+            </view>
+        </block>
+    </view>
+</block>

@@ -1,0 +1,5 @@
+<block wx:if="{{$taroCompReady}}">
+    <view>
+        <wemark md="{{md}}" highlight="{{true}}"></wemark>
+    </view>
+</block>

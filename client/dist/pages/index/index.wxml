@@ -1,0 +1,30 @@
+<block wx:if="{{$taroCompReady}}">
+    <view>
+        
+        <head compid="{{$compid__20}}"></head>
+        <left-drawer compid="{{$compid__21}}"></left-drawer>
+        <block>
+            <block wx:if="{{key === 'index'}}">
+                <view class="content">
+                    <view class="content-left">
+                        <scroll-view scroll-y="{{true}}" style="{{anonymousState__temp}}">
+                            <menu compid="{{$compid__22}}"></menu>
+                        </scroll-view>
+                    </view>
+                    <view class="content-right">
+                        <scroll-view scroll-y="{{true}}" style="{{anonymousState__temp2}}">
+                            <view class="md">
+                                <markdown compid="{{$compid__23}}"></markdown>
+                            </view>
+                        </scroll-view>
+                    </view>
+                    <menu-switch compid="{{$compid__24}}"></menu-switch>
+                </view>
+            </block>
+            <block wx:else>
+                <begin></begin>
+            </block>
+        </block>
+        <bubble compid="{{$compid__25}}"></bubble>
+    </view>
+</block>

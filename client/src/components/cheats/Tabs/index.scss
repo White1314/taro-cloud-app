@@ -1,0 +1,90 @@
+.item {
+	padding: 10PX 20PX;
+	margin-bottom: 10PX;
+	background: #fff;
+}
+
+.title {
+	font-size: 20PX;
+	font-weight: bold;
+	margin-bottom: 10PX;
+}
+
+.content {
+	display: flex;
+	font-size: 14PX;
+}
+
+.content-left {
+	flex: 1;
+}
+
+.author {
+	display: flex;
+	align-items: center;
+}
+
+.left-img {
+	width: 20PX;
+	height: 20PX;
+	border-radius: 50%;
+	margin-right: 10PX;
+}
+
+.name {
+	font-size: 13PX;
+	color: #666;
+	font-weight: 500;
+}
+
+.brief {
+	margin-top: 10PX;
+	line-height: 20PX;
+	height: 40PX;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	text-overflow: ellipsis;
+
+}
+
+.content-right {
+	margin-left: 20PX;
+}
+
+.right-img {
+	width: 120PX;
+	height: 75PX;
+	border-radius: 5PX;
+}
+
+.bottom {
+	display: flex;
+	justify-content: space-between;
+	font-size: 13PX;
+	margin-top: 10PX;
+	color: #888;
+}
+
+.bottom-count {
+}
+
+.bottom-share {
+}
+
+@media screen and (min-width: 480px) {
+	.brief {
+		height: 60PX;
+	}
+	.right-img {
+		width: 160PX;
+		height: 95PX;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.tab-content {
+		width: 480PX;
+		margin: 10PX auto;
+	}
+}

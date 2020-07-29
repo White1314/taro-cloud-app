@@ -1,0 +1,9 @@
+<block wx:if="{{$taroCompReady}}">
+    <at-drawer compid="{{$compid__34}}">
+        <view class="drawer-head">
+            <logo compid="{{$compid__35}}"></logo>
+        </view>
+        <view class="drawer-menu"><text wx:key="key" bindtap="anonymousFunc0" class="menu" wx:for="{{loopArray8}}" wx:for-item="item" wx:for-index="__index0" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">{{item.$original.title}}</text>
+        </view>
+    </at-drawer>
+</block>

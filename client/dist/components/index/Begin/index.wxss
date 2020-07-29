@@ -1,0 +1,36 @@
+.begin {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 60PX 0;
+  color: #fff;
+  background-color: #6b52ae;
+}
+.title {
+  font-size: 40PX;
+  font-weight: bold;
+  text-align: center;
+}
+.tip {
+  font-size: 20PX;
+  text-align: center;
+  margin-top: 10PX;
+}
+.start {
+  width: 150PX;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10PX 0;
+  font-size: 14PX;
+  font-weight: bold;
+  margin-top: 30PX;
+  border: 1PX solid #fff;
+  border-radius: 5PX;
+}
+.start:hover {
+  background-color: #f1f1f1;
+  color: #6b52ae;
+}

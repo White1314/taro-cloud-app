@@ -1,0 +1,5 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="search"><text class="at-icon at-icon-search"></text>
+        <input class="search-input" type="text" placeholder="search" bindinput="anonymousFunc0" bindblur="funPrivatebbzzz" value="{{value}}" />
+    </view>
+</block>

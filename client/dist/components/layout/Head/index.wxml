@@ -1,0 +1,17 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="head">
+        <view class="menu-scale" bindtap="funPrivatehzzzz"><text class="at-icon at-icon-menu"></text>
+        </view>
+        <view bindtap="anonymousFunc0">
+            <logo></logo>
+        </view>
+        <view class="menu">
+            <view wx:key="key" bindtap="anonymousFunc1" class="menu-text" wx:for="{{loopArray6}}" wx:for-item="item" wx:for-index="__index1" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}"><text class="{{item.$original.key === pathname ? 'active' : null}}">{{item.$original.title}}</text>
+            </view>
+        </view>
+        <view style="{{anonymousState__temp}}"></view>
+        <view class="search">
+            <search compid="{{$compid__33}}"></search>
+        </view>
+    </view>
+</block>

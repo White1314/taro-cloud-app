@@ -1,0 +1,36 @@
+.logo {
+  height: 30PX;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.logo-img {
+  width: 30PX;
+  height: 30PX;
+  border-radius: 50%;
+}
+.logo-text {
+  font-size: 14PX;
+  font-weight: 800;
+  padding-left: 10PX;
+}
+.text-warp {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (max-width: 370px) {
+  .text-warp {
+    display: none;
+  }
+}
+@media screen and (min-width: 370px) and (max-width: 410px) {
+  .text-warp {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}

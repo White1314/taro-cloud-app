@@ -1,0 +1,46 @@
+@import "~taro-ui/dist/style/components/icon.scss";
+
+.head {
+	display: flex;
+	align-items: center;
+    height: 50PX;
+	padding: 0 20PX;
+	box-shadow: 0 2PX 10PX rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (max-width: 996px) {
+    .menu {
+        display: none;
+    } 
+    .menu-scale {
+        height: 30PX;
+        display: flex;
+        align-items: center;
+        font-size: 25PX;
+        margin-right: 10PX;
+    }
+}
+
+@media screen and (min-width: 996px) {
+    .menu {
+        display: flex;
+        font-size: 14PX;
+    }
+    .menu-text {
+        margin-left: 40PX;
+    }
+    .menu-text:hover {
+        color: #6739b6;
+    }
+    .menu-scale {
+        display: none;
+    }
+}
+
+.active {
+    color: #6739b6;
+}
+
+.search {
+    width: 150PX;
+}

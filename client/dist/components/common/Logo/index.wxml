@@ -1,0 +1,15 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="logo">
+        <image src="{{logoImgUrl}}" alt="" class="logo-img"></image>
+        <view class="logo-text">
+            <block>
+                <block wx:if="{{nowarp}}"><text>White1314</text>
+                </block>
+                <block wx:else>
+                    <view class="text-warp"><text>White</text><text>1314</text>
+                    </view>
+                </block>
+            </block>
+        </view>
+    </view>
+</block>

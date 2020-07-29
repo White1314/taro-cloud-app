@@ -1,0 +1,11 @@
+<block wx:if="{{$taroCompReady}}">
+    <view>
+        
+        <head compid="{{$compid__29}}"></head>
+        <left-drawer compid="{{$compid__30}}"></left-drawer>
+        <bubble compid="{{$compid__31}}"></bubble>
+        <view class="content">
+            <markdown compid="{{$compid__32}}"></markdown>
+        </view>
+    </view>
+</block>

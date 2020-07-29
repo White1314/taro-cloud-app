@@ -1,0 +1,15 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="menu">
+        <view class="menu-switch" bindtap="anonymousFunc0">
+            <block>
+                <block wx:if="{{spread}}"><text class="at-icon at-icon-close"></text>
+                </block>
+                <block wx:else><text class="at-icon at-icon-menu"></text>
+                </block>
+            </block>
+        </view>
+        <block wx:if="{{spread}}">
+            <menu compid="{{$compid__38}}"></menu>
+        </block>
+    </view>
+</block>

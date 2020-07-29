@@ -1,0 +1,212 @@
+@import "prism.wxss";
+
+/* 容器 */
+.wemark_wrapper {
+	margin: 0;
+	font-size: 10PX;
+}
+
+/* h1-h6 标题 */
+.wemark_block_h1 {
+	font-weight: bold;
+	padding-bottom: 10PX;
+	margin-top: 20PX;
+	border-bottom: 1PX solid #f1f1f1;
+}
+
+.wemark_block_h2 {
+	font-size: 24PX;
+	font-weight: bold;
+	padding-bottom: 10PX;
+	margin-top: 20PX;
+	border-bottom: 1PX solid #f1f1f1;
+}
+
+.wemark_block_h3{
+	font-size: 18.72PX;
+	font-weight: bold;
+	padding-bottom: 10PX;
+	margin-top: 20PX;
+	border-bottom: 1PX solid #f1f1f1;
+}
+
+.wemark_block_h4,
+.wemark_block_h5,
+.wemark_block_h6 {
+	font-size: 16PX;
+	font-weight: bold;
+	padding-bottom: 10PX;
+	margin-top: 20PX;
+	border-bottom: 1PX solid #f1f1f1;
+}
+
+/* 表格 */
+.wemark_block_table{
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.wemark_block_table_tr {
+	display: flex;
+}
+
+.wemark_inline_table_th {
+	background:#f0f0f0;
+	margin-top: 20PX;
+}
+
+.wemark_inline_table_th,
+.wemark_inline_table_td {
+	flex: 1;
+	padding: 5PX;
+	font-size: 14PX;
+	word-break: break-all;
+	border: 1PX solid #e0e0e0;
+}
+
+.wemark_wrapper_richtext .wemark_inline_table_th,
+.wemark_wrapper_richtext .wemark_inline_table_td {
+	display: table-cell;
+}
+
+/* 文本行 */
+.wemark_block_p {
+	margin-top: 20PX;
+	line-height: 30PX;
+}
+
+/* 行内文本 */
+.wemark_inline_text {
+	font-size: 14PX;
+	word-wrap: break-word;
+}
+
+/* 标题文本 */
+.wemark_block_h1 .wemark_inline_text {
+	font-size: 32PX;
+}
+
+.wemark_block_h2 .wemark_inline_text {
+	font-size: 24PX;
+}
+
+.wemark_block_h3 .wemark_inline_text {
+	font-size: 18.72PX;
+}
+
+.wemark_block_h4 .wemark_inline_text,
+.wemark_block_h5 .wemark_inline_text,
+.wemark_block_h6 .wemark_inline_text {
+	font-size: 16PX;
+}
+
+/* 无序、有序列表 */
+
+.wemark_block_ul_li_p::before {
+	content:'• ';
+	font-size: 14PX;
+	margin-right: 3PX;
+}
+
+.wemark_block_ul_li_ul_li_p::before,
+.wemark_block_ol_li_ul_li_p::before {
+	content:'◦ ';
+	font-size: 14PX;
+	margin-right: 3PX;
+}
+
+/* 无法用伪类获取第一个 */
+.wemark_block_ol_li_p,
+.wemark_block_ul_li_p {
+	margin-top: 20PX;
+	padding: 0 10PX;
+	line-height: 30PX;
+}
+
+/* 行内文本加粗 */
+.wemark_inline_strong {
+	display: inline-block;
+	font-size: 14PX;
+	font-weight: bold;
+}
+
+/* 行内代码 */
+.wemark_inline_code {
+	font-size: 14PX;
+	padding: 2PX 5PX;
+	color: #000;
+	background-color: rgb(246, 248, 250);
+	border-radius: 3PX;
+	word-wrap:break-word;
+}
+
+/*
+.wemark_block_ul_li_ul_li_p,
+.wemark_block_ul_li_ol_li_p,
+.wemark_block_ol_li_ul_li_p,
+.wemark_block_ol_li_ol_li_p{
+	padding: 0 10PX;
+}
+*/
+
+/* 引用 */
+.wemark_block_blockquote_p {
+	margin-top: 20PX;
+	padding: 5PX 15PX;
+	line-height: 30PX;
+	font-size: 14PX;
+	color: #888;
+	border-left: 3PX solid #e0e0e0;
+	background: #fff;
+}
+
+/* 代码块 */
+.wemark_block_code {
+	margin-top: 20PX;
+	padding: 10PX 20PX;
+	font-size: 12PX;
+	line-height: 20PX;
+	white-space: pre;
+	overflow: auto;
+	background-color: rgb(246, 248, 250);
+	border-radius: 5PX;
+}
+
+.wemark_inline_image{
+	max-height: 300PX;
+}
+
+/* 未处理元素 
+.wemark_inline_em{
+	font-style: italic;
+	padding:0 5PX;
+	word-wrap:break-word;
+}
+.wemark_inline_strong_em{
+	font-style: italic;
+	font-weight: bold;
+	padding:0 5PX;
+	word-wrap:break-word;
+}
+.wemark_inline_deleted{
+	text-decoration: line-through;
+	padding:0 5PX;
+	word-wrap:break-word;
+}
+.wemark_inline_link{
+	display: inline;
+	color: blue;
+	word-wrap:break-word;
+}
+
+
+.wemark_wrapper_richtext .wemark_block_table_tr{
+	display: table-row;
+}
+
+.wemark_block_video{
+	width:100%;
+	margin-top: 10PX 0;
+}
+*/
